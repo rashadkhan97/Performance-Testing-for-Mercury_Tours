@@ -29,35 +29,40 @@ This document explains how to run a performance test with JMeter against -**Merc
 # Install
 
 - **Java**  
-URL : https://www.oracle.com/java/technologies/downloads/
+URL: https://www.oracle.com/java/technologies/downloads/
 
 - **JMeter**  
-URL : https://jmeter.apache.org/download_jmeter.cgi  
+URL: https://jmeter.apache.org/download_jmeter.cgi  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/76a1e6ec-a779-4cc0-8665-2fb4b28c0ae7" alt="Image description" />
 </p>
 
 
 
-**We use BlazeMeter to generate JMX files**    
-https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
+- **BlazeMeter**
+For this project, BlazeMeter has been used for the JMX file. 
+URL: https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b182d91d-9824-4c48-890d-2e497acc1857" alt="Image description" />
+</p>
+
 
 # Prerequisites
 - As of JMeter 4.0, Java 8 and above are supported.
-- we suggest  multicore cpus with 4 or more cores.
+- we suggest  multicore CPUs with 4 or more cores.
 - Memory 16GB RAM is a good value.
 
 # Elements of a minimal test plan
 - Thread Group
 
-    The root element of every test plan. Simulates the (concurrent) users and then run all requests. Each thread simulates a single user.
+    The root element of every test plan. Simulates the (concurrent) users and runs all requests. Each thread simulates a single user.
 
 - HTTP Request Default (Configuration Element)
 
 - HTTP Request (Sampler)
 
-- Summary Report (Listener)
-
+- Summary Report (Listener, Assertions)
+  
 # Load testing Report
 
 | Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
