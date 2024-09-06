@@ -70,7 +70,7 @@ Right-click on Testplan > Add > Threads (Users) > Thread Group (this might vary 
 </p>
 
 - Name: **Test Plan Name**
-- Number of Threads (users): 1 to 9
+- Number of Threads (users): 1 to 10
 - Ramp-Up Period (in seconds): 10
 - Loop Count: 1  
 
@@ -156,17 +156,16 @@ Now continue the same process for threads(1 to 9) by keeping the Ramp-up period 
 
 | Concurrent Request  | Loop Count | Ramp-up Period  | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
 |               :---: |      :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 1  | 1  | 10  | 3.350  | 0%      | 5   |
-| 2  | 1  | 10  |  7     | 0%      | 10   |
-| 3  | 1  | 10  |  11    | 0%   | 15   |
-| 5 | 1  | 10  |  14.1  | 0%   | 25   |
-| 7  | 1  | 10  |  17.6  | 0%   | 1060  |
-| 9  | 1  | 10  |  20    | 0%   | 45  |
-| 10  | 1  | 10  |  20    | 2%   | 50  |
+| 1  | 1  | 10  |0.08  | 0%      | 5   |
+| 2  | 1  | 10  |  0.167     | 0%      | 10   |
+| 3  | 1  | 10  |  0.20    | 0%   | 15   |
+| 5 | 1  | 10  |  0.30  | 0%   | 25   |
+| 9  | 1  | 10  |  0.72    | 0%   | 45  |
+| 10  | 1  | 10  |  0.8    | 2%   | 50  |
 
 ### Summary
-- While executing 3 concurrent requests, found  636 request got connection timeout and error rate is 0.47%.
-- Server can handle almost concurrent 424 API calls with almost zero (0) error rate.
+- While executing no 5th concurrent requests, we found  1 request got a response code error and the error rate is 2%.
+- Server can handle almost concurrent in between 45 to 47 API calls with almost zero (0) error rate.
 
  
 # HTML Report
