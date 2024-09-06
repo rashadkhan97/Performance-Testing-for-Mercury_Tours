@@ -240,9 +240,10 @@ Requests Summary             |  Statistics
 ![16](https://github.com/user-attachments/assets/91cc74ca-dec5-4a86-860d-39bb170f9c36)  |  ![17](https://github.com/user-attachments/assets/a3a73b4c-6e82-4062-bc85-c3c06162690d)
 
 
-Total Transaction  Per Second |
-:-------------------------:
-![18](https://github.com/user-attachments/assets/3314e883-6f30-4d93-be78-e08df2f46e74)
+Total Transaction  Per Second | Errors
+:-------------------------:|:-------------------------:
+![18](https://github.com/user-attachments/assets/3314e883-6f30-4d93-be78-e08df2f46e74) |  ![19](https://github.com/user-attachments/assets/66cb0e35-7103-4e84-ae9c-e3685423b8cb)
+
 
 
 
