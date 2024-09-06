@@ -115,36 +115,40 @@ Right click on Testplan > Add > Threads (Users) > Thread Group (this might vary 
 # Test execution (from the Terminal)
  
 - JMeter should be initialized in non-GUI mode.
-- Make a report folder in the **bin** folder.  
-- Run Command in __jmeter\bin__ folder. 
+- Make sure all assertions and listeners should be disabled before testing in non-GUI mode
+- Create a report folder inside the **bin** folder.  
+- Run the Command line in the bin folder.
 
- ### Make jtl file
+ ### Creating JTL and HTML  file
+ - jtl file
 
 ```bash
-  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.jtl
-```      
-  Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
-  
-  ![a](https://user-images.githubusercontent.com/92669932/189541580-9345c967-36a3-48c1-bf51-692431658b27.jpg)   
-  
-  ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
-
-After completing this command  
-   ### Make an HTML file   
+  jmeter -n -t  mt_thread_01.jmx -l mt_thread_01.jtl
+```
+   
+ - HTML file  
   
   ```bash
-  jmeter -g report\OPENCART_T1.jtl -o OPENCART_T1.html
+  jmeter -g report\mt_thread_01.jtl -o mt_thread_01.html
 ```
+
  
+Here, 
+    - **n** = non - GUI mode
+	- **t** = Load the test plan located
+	- **l** = Save the test result's location 
+	- **g** = Generate
+	- **o** = Output
+ 
+Now open report folder you will see - a jtl file and HTML folder there. 
+<p align ="center">
+    <img src="https://github.com/user-attachments/assets/455647b9-a9c2-420c-9750-ecf38dea3404" />
+</p>
 
-  - **g**: jtl results file
+Once you click on index.html from the HTML folder you will see the results on any of your default browser. 
 
-  - **o**: path to output folder  
-
-  ![b](https://user-images.githubusercontent.com/92669932/189541594-c608e5c9-9679-4c80-9f90-855985cfb630.jpg)  
-  ![f](https://user-images.githubusercontent.com/92669932/189541801-59a45bdd-6a12-44f3-9194-ff41b2c3d954.jpg)  
-  
-
+ Continue the same process for threads(1 to 9) by keeping the Ramp-up period and loop count without any change. 
+ 
 # HTML Report
 
 **Number of Threads 1 ; Ramp-Up Period 10s**
@@ -201,8 +205,8 @@ Requests Summary             |  Errors
 | 6  | 1  |  20    | 1.18%   | 1272  |
 
 ### Summary
-- While executed 3 concurrent request, found  636 request got connection timeout and error rate is 0.47%.
-- Server can handle almost concurrent 424 API call with almost zero (0) error rate.
+- While executing 3 concurrent requests, found  636 request got connection timeout and error rate is 0.47%.
+- Server can handle almost concurrent 424 API calls with almost zero (0) error rate.
 
 
 
