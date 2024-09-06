@@ -39,7 +39,7 @@ URL: https://jmeter.apache.org/download_jmeter.cgi
 
 
 - **BlazeMeter**
-For this project, BlazeMeter has been used for the JMX file. 
+For this project, BlazeMeter has been used for the JMX file. <br>
 URL: https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b182d91d-9824-4c48-890d-2e497acc1857" alt="Image description" />
