@@ -7,17 +7,17 @@
 - [Prerequisites](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#prerequisites)   
 - [Elements of a Minimal Test Plan](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#prerequisites)    
 - [Test Plan](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#test-plan)    
-- [Collection of API](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#collection-of-api)   
-    - [List of API](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#list-of-api) 
-    - [Load the JMeter Script](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#load-the-jmeter-script)     
-- [Make csv File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-csv-file)    
-- [Make jtl File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-jtl-file)  
-- [Make html File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-html-file)  
-- [HTML Report](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#html-report) 
-- [Stress Testing](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#stress-testing)    
-- [Spike Testing](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#spike-testing)      
-- [Endurance Testing](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#endurance-testing)
-- [Read Test Data from CSV file in Jmeter](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#read-test-data-from-csv-file-in-jmeter)
+- [Collection of API](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#collection-of-api)   
+    - [List of API](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#list-of-api) 
+    - [Load the JMeter Script](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#load-the-jmeter-script)     
+- [Make csv File](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#make-csv-file)    
+- [Make jtl File](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#make-jtl-file)  
+- [Make html File](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#make-html-file)  
+- [HTML Report](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#html-report) 
+- [Stress Testing](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#stress-testing)    
+- [Spike Testing](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#spike-testing)      
+- [Endurance Testing](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#endurance-testing)
+- [Read Test Data from CSV file in Jmeter](https://github.com/rashadkhan97/Performance-Testing-for-Mercury_Tours#read-test-data-from-csv-file-in-jmeter)
 
 
 
@@ -147,7 +147,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
   ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
 
 After completing this command  
-   ### Make html file   
+   ### Make HTML file   
   
   ```bash
   jmeter -g report\OPENCART_T1.jtl -o OPENCART_T1.html
