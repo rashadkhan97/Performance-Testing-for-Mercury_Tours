@@ -3,17 +3,16 @@
 - [Introduction](#introduction)
 - [Install](#install)      
 - [Prerequisites](#prerequisites)   
-- [Elements of a Minimal Test Plan](#prerequisites)   
-- [Load testing Report](#load-testing-report)  
-- [Summary](#summary)     
+- [Elements of a Minimal Test Plan](#prerequisites)
 - [Test Plan](#test-plan)    
 - [Collection of API](#collection-of-api)   
     - [List of API](#list-of-api) 
-    - [Load the JMeter Script](#load-the-jmeter-script)     
-- [Make csv File](#make-csv-file)    
+    - [Load the JMeter Script](#load-the-jmeter-script)      
 - [Make jtl File](#make-jtl-file)  
 - [Make html File](#make-html-file)  
-- [HTML Report](#html-report) 
+- [HTML Report](#html-report)
+- [Load testing Report](#load-testing-report)  
+- [Summary](#summary)  
 - [Stress Testing](#stress-testing)    
 - [Spike Testing](#spike-testing)      
 - [Endurance Testing](#endurance-testing)
@@ -62,34 +61,20 @@ URL: https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmd
 - HTTP Request (Sampler)
 
 - Summary Report (Listener, Assertions)
-  
-# Load testing Report
-
-| Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
-|               :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 1  | 1  | 3.350  | 0%      | 212   |
-| 2  | 1  |  7     | 0%      | 424   |
-| 3  | 1  |  11    | 0.47%   | 636   |
-| 4  | 1  |  14.1  | 0.59%   | 848   |
-| 5  | 1  |  17.6  | 0.94%   | 1060  |
-| 6  | 1  |  20    | 1.18%   | 1272  |
-
-### Summary
-- While executed 3 concurrent request, found  636 request got connection timeout and error rate is 0.47%.
-- Server can handle almost concurrent 424 API call with almost zero (0) error rate.
-
-
 
 # Test Plan
 
-Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on the jMeter version you are using)
+Testplan > Add > Threads (Users) > Thread Group (this might vary depending on the JMeter version you are using)
+<p align ="center">
+    ![image](https://github.com/user-attachments/assets/fa5ee4a5-e327-42f6-a6e9-ee9679051340)
+</p>
 
 - Name: Users
-- Number of Threads (users): 1 to 6
+- Number of Threads (users): 1 to 9
 - Ramp-Up Period (in seconds): 10
 - Loop Count: 1  
 
-  1) The general setting for the tests execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
+  1) The general setting for the test execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
 
   2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content-Encoding.
 
@@ -129,18 +114,6 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 - Make a report folder in the **bin** folder.  
 - Run Command in __jmeter\bin__ folder. 
 
- ### Make csv file    
- 
-   - **n**: non GUI mode
-  - **t**: test plan to execute
-  - **l**: output file with results   
-
-```bash
-  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.csv
-```   
-![csvfile](https://user-images.githubusercontent.com/92669932/197028552-faf7d3e6-d74a-46fc-b4d2-750c244f2a5e.jpg)
-
-
  ### Make jtl file
 
 ```bash
@@ -153,7 +126,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
   ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
 
 After completing this command  
-   ### Make HTML file   
+   ### Make an HTML file   
   
   ```bash
   jmeter -g report\OPENCART_T1.jtl -o OPENCART_T1.html
@@ -209,6 +182,24 @@ Requests Summary             |  Errors
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
  ![11](https://user-images.githubusercontent.com/92669932/189543896-bba2da13-370e-438c-84e9-88439c8e307e.jpg) |  ![12](https://user-images.githubusercontent.com/92669932/189543902-851bd50a-95a7-435e-8df2-a6c615786109.jpg)   
+
+
+  
+# Load testing Report
+
+| Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
+|               :---: |      :---: |                      :---: |                        :---: |      :---: |
+| 1  | 1  | 3.350  | 0%      | 212   |
+| 2  | 1  |  7     | 0%      | 424   |
+| 3  | 1  |  11    | 0.47%   | 636   |
+| 4  | 1  |  14.1  | 0.59%   | 848   |
+| 5  | 1  |  17.6  | 0.94%   | 1060  |
+| 6  | 1  |  20    | 1.18%   | 1272  |
+
+### Summary
+- While executed 3 concurrent request, found  636 request got connection timeout and error rate is 0.47%.
+- Server can handle almost concurrent 424 API call with almost zero (0) error rate.
+
 
 
 # Stress Testing
