@@ -177,9 +177,10 @@ Requests Summary             |  Statistics
 ![1](https://github.com/user-attachments/assets/9b362090-b029-4c71-b75c-db0cfa7839bc)  |  ![2](https://github.com/user-attachments/assets/9df76f71-f709-49ee-a846-029e0dffd2a0)
 
 
-Errors             	|  Total Transaction  Per Second
-:-------------------------:|:-------------------------:
-![3](https://github.com/user-attachments/assets/85e423e2-8fbf-40d3-bc2f-7948e5389843)  |  ![4](https://github.com/user-attachments/assets/cbd75cbf-b66f-4840-ab8a-c5d4f4ab97fe)
+Total Transaction  Per Second |
+:-------------------------:
+![3](https://github.com/user-attachments/assets/ed4268b8-616a-4b1d-be0f-c06d427a8fae)
+ 
 
 **Number of Threads 2 ; Ramp-Up Period 10s**
    
