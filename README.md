@@ -103,7 +103,7 @@ Right-click on Testplan > Add > Threads (Users) > Thread Group (this might vary 
   ### Load the JMX file in JMeter  
    - File > Open (CTRL + O)
    - Locate the "mt_thread_01.jmx" file contained on this repo
-   - Continue open "mt_thread_01.jmx" to "mt_thread_09.jmx"
+   - Continue open "mt_thread_01.jmx" to "mt_thread_10.jmx"
    - Open those file
    - The Test Plan will be loaded  
 
@@ -156,12 +156,13 @@ Now continue the same process for threads(1 to 9) by keeping the Ramp-up period 
 
 | Concurrent Request  | Loop Count | Ramp-up Period  | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
 |               :---: |      :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 1  | 1  | 3.350  | 0%      | 212   |
-| 2  | 1  |  7     | 0%      | 424   |
-| 3  | 1  |  11    | 0.47%   | 636   |
-| 4  | 1  |  14.1  | 0.59%   | 848   |
-| 5  | 1  |  17.6  | 0.94%   | 1060  |
-| 6  | 1  |  20    | 1.18%   | 1272  |
+| 1  | 1  | 10  | 3.350  | 0%      | 5   |
+| 2  | 1  | 10  |  7     | 0%      | 10   |
+| 3  | 1  | 10  |  11    | 0%   | 15   |
+| 5 | 1  | 10  |  14.1  | 0%   | 25   |
+| 7  | 1  | 10  |  17.6  | 0%   | 1060  |
+| 9  | 1  | 10  |  20    | 0%   | 45  |
+| 10  | 1  | 10  |  20    | 2%   | 50  |
 
 ### Summary
 - While executing 3 concurrent requests, found  636 request got connection timeout and error rate is 0.47%.
