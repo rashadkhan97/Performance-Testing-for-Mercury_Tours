@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725552444781,1647,https://demo.guru99.com/test/newtours/index.php,200,OK,Thread Group 1-1,text,true,,24672,647,1,1,https://demo.guru99.com/test/newtours/index.php,1141,0,829
+1725552447073,571,https://demo.guru99.com/test/newtours/login_sucess.php,200,OK,Thread Group 1-1,text,true,,15878,578,1,1,https://demo.guru99.com/test/newtours/login_sucess.php,299,0,0
+1725552455013,1133,https://demo.guru99.com/test/newtours/reservation.php,200,OK,Thread Group 1-1,text,true,,24403,577,1,1,https://demo.guru99.com/test/newtours/reservation.php,860,0,556
+1725552474515,1191,https://demo.guru99.com/test/newtours/reservation2.php,200,OK,Thread Group 1-1,text,true,,16350,829,1,1,https://demo.guru99.com/test/newtours/reservation2.php,918,0,558
+1725552479446,1253,https://demo.guru99.com/test/newtours/index.php,200,OK,Thread Group 1-1,text,true,,24534,571,1,1,https://demo.guru99.com/test/newtours/index.php,915,0,572
+1725552444717,5795,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,105837,3202,1,1,null,4133,30189,2515

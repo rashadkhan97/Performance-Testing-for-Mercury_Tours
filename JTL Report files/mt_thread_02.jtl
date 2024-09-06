@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725552595197,1879,https://demo.guru99.com/test/newtours/index.php,200,OK,Thread Group 1-1,text,true,,24679,647,1,1,https://demo.guru99.com/test/newtours/index.php,1608,0,866
+1725552597723,591,https://demo.guru99.com/test/newtours/login_sucess.php,200,OK,Thread Group 1-1,text,true,,15891,578,1,1,https://demo.guru99.com/test/newtours/login_sucess.php,316,0,0
+1725552600136,1407,https://demo.guru99.com/test/newtours/index.php,200,OK,Thread Group 1-2,text,true,,24679,647,2,2,https://demo.guru99.com/test/newtours/index.php,1015,0,572
+1725552602189,622,https://demo.guru99.com/test/newtours/login_sucess.php,200,OK,Thread Group 1-2,text,true,,15878,578,2,2,https://demo.guru99.com/test/newtours/login_sucess.php,347,0,0
+1725552605679,2979,https://demo.guru99.com/test/newtours/reservation.php,200,OK,Thread Group 1-1,text,true,,24403,577,2,2,https://demo.guru99.com/test/newtours/reservation.php,859,0,557
+1725552610174,1151,https://demo.guru99.com/test/newtours/reservation.php,200,OK,Thread Group 1-2,text,true,,24397,577,2,2,https://demo.guru99.com/test/newtours/reservation.php,872,0,563
+1725552627028,1446,https://demo.guru99.com/test/newtours/reservation2.php,200,OK,Thread Group 1-1,text,true,,16350,829,2,2,https://demo.guru99.com/test/newtours/reservation2.php,899,0,556
+1725552629695,1144,https://demo.guru99.com/test/newtours/reservation2.php,200,OK,Thread Group 1-2,text,true,,16349,829,2,2,https://demo.guru99.com/test/newtours/reservation2.php,872,0,561
+1725552632215,1206,https://demo.guru99.com/test/newtours/index.php,200,OK,Thread Group 1-1,text,true,,24540,571,2,2,https://demo.guru99.com/test/newtours/index.php,885,0,562
+1725552595141,8101,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,105863,3202,2,2,null,4567,30179,2541
+1725552634580,1228,https://demo.guru99.com/test/newtours/index.php,200,OK,Thread Group 1-2,text,true,,24540,571,1,1,https://demo.guru99.com/test/newtours/index.php,904,0,555
+1725552600135,5552,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,105843,3202,1,1,null,4010,30121,2251
