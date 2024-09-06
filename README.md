@@ -206,6 +206,48 @@ Total Transaction  Per Second |
 ![9](https://github.com/user-attachments/assets/96b0a638-b309-44d4-9a82-15332d11cafa)
 
 
+**Number of Threads 5 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Statistics
+:-------------------------:|:-------------------------:
+![10](https://github.com/user-attachments/assets/3c0938ef-50a9-42c7-8cf5-f8d8cb2b5ce9)  |  ![11](https://github.com/user-attachments/assets/061d94de-e2b6-4000-8dcb-99a0b9f8e743)
+
+
+
+Total Transaction  Per Second |
+:-------------------------:
+![12](https://github.com/user-attachments/assets/cada3d63-aa1a-459a-8870-2c0a8b6cc696)
+
+
+
+**Number of Threads 9 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Statistics
+:-------------------------:|:-------------------------:
+![13](https://github.com/user-attachments/assets/073db2e3-25ca-48d5-a05f-4d524ac12827)  |  ![14](https://github.com/user-attachments/assets/a74ea987-5e97-4d00-9069-688b6f9be1ff)
+
+
+
+Total Transaction  Per Second |
+:-------------------------:
+![15](https://github.com/user-attachments/assets/e9e5baeb-e0df-4b92-8c3a-acedbe02ea55)
+
+
+**Number of Threads 10 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Statistics
+:-------------------------:|:-------------------------:
+![16](https://github.com/user-attachments/assets/91cc74ca-dec5-4a86-860d-39bb170f9c36)  |  ![17](https://github.com/user-attachments/assets/a3a73b4c-6e82-4062-bc85-c3c06162690d)
+
+
+Total Transaction  Per Second |
+:-------------------------:
+![18](https://github.com/user-attachments/assets/3314e883-6f30-4d93-be78-e08df2f46e74)
+
+
+
+
+
 # Stress Testing
 
 Stress Testing is a type of software testing that evaluates how the software responds under extreme conditions. It verifies how robust a system will be, and its response capabilities and error handling when it is subjected to conditions where its normal functioning can be compromised.
