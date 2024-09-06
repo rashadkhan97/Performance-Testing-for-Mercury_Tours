@@ -172,9 +172,14 @@ Now continue the same process for threads(1 to 9) by keeping the Ramp-up period 
 
 **Number of Threads 1 ; Ramp-Up Period 10s**
    
-Requests Summary             |  Errors
+Requests Summary             |  Statistics
 :-------------------------:|:-------------------------:
-![1](https://github.com/user-attachments/assets/9b362090-b029-4c71-b75c-db0cfa7839bc)  |  ![2](https://user-images.githubusercontent.com/92669932/189543499-17c168a2-5b32-4710-9bc0-df7a2b3656c7.jpg)
+![1](https://github.com/user-attachments/assets/9b362090-b029-4c71-b75c-db0cfa7839bc)  |  ![2](https://github.com/user-attachments/assets/9df76f71-f709-49ee-a846-029e0dffd2a0)
+
+
+Errors             	|  Total Transaction  Per Second
+:-------------------------:|:-------------------------:
+![3](https://github.com/user-attachments/assets/85e423e2-8fbf-40d3-bc2f-7948e5389843)  |  ![4](https://github.com/user-attachments/assets/cbd75cbf-b66f-4840-ab8a-c5d4f4ab97fe)
 
 **Number of Threads 2 ; Ramp-Up Period 10s**
    
