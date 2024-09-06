@@ -154,8 +154,8 @@ Now continue the same process for threads(1 to 9) by keeping the Ramp-up period 
 
 # Load testing Report
 
-| Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
-|               :---: |      :---: |                      :---: |                        :---: |      :---: |
+| Concurrent Request  | Loop Count | Ramp-up Period  | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
+|               :---: |      :---: |      :---: |                      :---: |                        :---: |      :---: |
 | 1  | 1  | 3.350  | 0%      | 212   |
 | 2  | 1  |  7     | 0%      | 424   |
 | 3  | 1  |  11    | 0.47%   | 636   |
