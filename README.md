@@ -10,9 +10,9 @@
     - [Load the JMeter Script](#load-the-jmeter-script)      
 - [Make jtl File](#make-jtl-file)  
 - [Make html File](#make-html-file)  
-- [HTML Report](#html-report)
 - [Load testing Report](#load-testing-report)  
 - [Summary](#summary)  
+- [HTML Report](#html-report)
 - [Stress Testing](#stress-testing)    
 - [Spike Testing](#spike-testing)      
 - [Endurance Testing](#endurance-testing)
@@ -120,34 +120,53 @@ Right click on Testplan > Add > Threads (Users) > Thread Group (this might vary 
 - Run the Command line in the bin folder.
 
  ### Creating JTL and HTML  file
- - jtl file
+ - jtl file create
 
 ```bash
   jmeter -n -t  mt_thread_01.jmx -l mt_thread_01.jtl
 ```
    
- - HTML file  
+ - HTML file create
   
-  ```bash
+```bash
   jmeter -g report\mt_thread_01.jtl -o mt_thread_01.html
 ```
 
  
 Here, 
-    - **n** = non - GUI mode
+   	- **n** = non - GUI mode
 	- **t** = Load the test plan located
 	- **l** = Save the test result's location 
 	- **g** = Generate
 	- **o** = Output
  
-Now open report folder you will see - a jtl file and HTML folder there. 
+Now open the report folder you will see - a jtl file and an HTML folder there. 
 <p align ="center">
     <img src="https://github.com/user-attachments/assets/455647b9-a9c2-420c-9750-ecf38dea3404" />
 </p>
 
-Once you click on index.html from the HTML folder you will see the results on any of your default browser. 
+Once you click on index.html from the HTML folder you will see the results on any of your default browsers. 
+<p align ="center">
+    <img src="https://github.com/user-attachments/assets/c9da552f-c7c1-4a28-9b71-4db3c5219265" />
+</p>
 
- Continue the same process for threads(1 to 9) by keeping the Ramp-up period and loop count without any change. 
+Now continue the same process for threads(1 to 9) by keeping the Ramp-up period and loop count without any change. 
+
+# Load testing Report
+
+| Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
+|               :---: |      :---: |                      :---: |                        :---: |      :---: |
+| 1  | 1  | 3.350  | 0%      | 212   |
+| 2  | 1  |  7     | 0%      | 424   |
+| 3  | 1  |  11    | 0.47%   | 636   |
+| 4  | 1  |  14.1  | 0.59%   | 848   |
+| 5  | 1  |  17.6  | 0.94%   | 1060  |
+| 6  | 1  |  20    | 1.18%   | 1272  |
+
+### Summary
+- While executing 3 concurrent requests, found  636 request got connection timeout and error rate is 0.47%.
+- Server can handle almost concurrent 424 API calls with almost zero (0) error rate.
+
  
 # HTML Report
 
@@ -190,23 +209,6 @@ Requests Summary             |  Errors
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
  ![11](https://user-images.githubusercontent.com/92669932/189543896-bba2da13-370e-438c-84e9-88439c8e307e.jpg) |  ![12](https://user-images.githubusercontent.com/92669932/189543902-851bd50a-95a7-435e-8df2-a6c615786109.jpg)   
-
-
-  
-# Load testing Report
-
-| Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
-|               :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 1  | 1  | 3.350  | 0%      | 212   |
-| 2  | 1  |  7     | 0%      | 424   |
-| 3  | 1  |  11    | 0.47%   | 636   |
-| 4  | 1  |  14.1  | 0.59%   | 848   |
-| 5  | 1  |  17.6  | 0.94%   | 1060  |
-| 6  | 1  |  20    | 1.18%   | 1272  |
-
-### Summary
-- While executing 3 concurrent requests, found  636 request got connection timeout and error rate is 0.47%.
-- Server can handle almost concurrent 424 API calls with almost zero (0) error rate.
 
 
 
