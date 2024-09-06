@@ -8,7 +8,7 @@
 - [Collection of API](#collection-of-api)   
     - [List of API](#list-of-api) 
     - [Load the JMeter Script](#load-the-jmeter-script)      
-- [Make jtl File](#make-jtl-file)  
+- [Test execution (from the Terminal)](#Test-execution-from-the-Terminal)  
 - [Make html File](#make-html-file)  
 - [Load testing Report](#load-testing-report)  
 - [Summary](#summary)  
@@ -64,7 +64,7 @@ URL: https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmd
 
 # Test Plan
 
-Right click on Testplan > Add > Threads (Users) > Thread Group (this might vary depending on the JMeter version you are using)
+Right-click on Testplan > Add > Threads (Users) > Thread Group (this might vary depending on the JMeter version you are using)
 <p align ="center">
     <img src="https://github.com/user-attachments/assets/fa5ee4a5-e327-42f6-a6e9-ee9679051340" />
 </p>
@@ -119,7 +119,7 @@ Right click on Testplan > Add > Threads (Users) > Thread Group (this might vary 
 - Create a report folder inside the **bin** folder.  
 - Run the Command line in the bin folder.
 
- ### Creating JTL and HTML  file
+ # Creating JTL and HTML  file
  - jtl file create
 
 ```bash
