@@ -66,7 +66,7 @@ URL: https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmd
 
 Testplan > Add > Threads (Users) > Thread Group (this might vary depending on the JMeter version you are using)
 <p align ="center">
-    ![image](https://github.com/user-attachments/assets/fa5ee4a5-e327-42f6-a6e9-ee9679051340)
+    <img src="https://github.com/user-attachments/assets/fa5ee4a5-e327-42f6-a6e9-ee9679051340" />
 </p>
 
 - Name: Users
