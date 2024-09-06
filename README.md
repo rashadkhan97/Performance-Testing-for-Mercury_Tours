@@ -64,12 +64,12 @@ URL: https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmd
 
 # Test Plan
 
-Testplan > Add > Threads (Users) > Thread Group (this might vary depending on the JMeter version you are using)
+Right click on Testplan > Add > Threads (Users) > Thread Group (this might vary depending on the JMeter version you are using)
 <p align ="center">
     <img src="https://github.com/user-attachments/assets/fa5ee4a5-e327-42f6-a6e9-ee9679051340" />
 </p>
 
-- Name: Users
+- Name: **Test Plan Name**
 - Number of Threads (users): 1 to 9
 - Ramp-Up Period (in seconds): 10
 - Loop Count: 1  
@@ -85,27 +85,31 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary depending on th
 # Collection of API
 
 - Run BlazeMeter  
-- Collect Frequently used API  
-- Save JMX file then paste => **apache-jmeter-5.5\bin**
+- Collect Frequently used API  (for this project, **Login with valid info > Click on flights > fill flight details and preferences > continue > Back to home**)
+- Save the JMX file
+- Now place the JMX file inside > **apache-jmeter-5.6.3\bin**
 
     ### List of API 
 
-    - [https://www.opencart.com/index.php?route=common/home](https://www.opencart.com/index.php?route=common/home)
-    - [https://www.opencart.com/index.php?route=cms/feature](https://www.opencart.com/index.php?route=cms/feature)
-    - [https://www.opencart.com/index.php?route=marketplace/extension](https://www.opencart.com/index.php?route=marketplace/extension)
-    - [https://www.opencart.com/index.php?route=cms/company](https://www.opencart.com/index.php?route=cms/company)
-    - [https://www.opencart.com/index.php?route=account/login](https://www.opencart.com/index.php?route=account/login)
+    - [https://demo.guru99.com/test/newtours/index.php](https://demo.guru99.com/test/newtours/index.php)
+    - [https://demo.guru99.com/test/newtours/login_sucess.php](https://demo.guru99.com/test/newtours/login_sucess.php)
+    - [https://demo.guru99.com/test/newtours/reservation.php](https://demo.guru99.com/test/newtours/reservation.php)
+    - [https://demo.guru99.com/test/newtours/reservation2.php](https://demo.guru99.com/test/newtours/reservation2.php)
+    - [https://demo.guru99.com/test/newtours/index.php](https://demo.guru99.com/test/newtours/index.php)
+
 
    **OR**
     
-  ### Load the JMeter Script 
+  ### Load the JMX file in JMeter  
    - File > Open (CTRL + O)
-   - Locate the "OPENCART_T1.jmx" file contained on this repo
-   - Continue open OPENCART_T1 to OPENCART_T6
+   - Locate the "mt_thread_01.jmx" file contained on this repo
+   - Continue open "mt_thread_01.jmx" to "mt_thread_09.jmx"
    - Open those file
    - The Test Plan will be loaded  
-   
-   ![c](https://user-images.githubusercontent.com/92669932/189541560-025b250b-b00e-46a1-9b55-c4ed4f7835ec.jpg)
+
+  <p align ="center">
+    <img src="https://github.com/user-attachments/assets/1ee8ac5c-72b6-41d2-a406-b605543fbf6f" />
+</p>
 
                                    
 # Test execution (from the Terminal)
