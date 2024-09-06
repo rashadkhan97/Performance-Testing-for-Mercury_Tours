@@ -9,7 +9,7 @@
     - [List of API](#list-of-api) 
     - [Load the JMeter Script](#load-the-jmeter-script)      
 - [Test execution (from the Terminal)](#Test-execution-from-the-Terminal)  
-- [Make html File](#make-html-file)  
+- [Creating JTL and HTML file](#Creating-JTL-and-HTML-file)  
 - [Load testing Report](#load-testing-report)  
 - [Summary](#summary)  
 - [HTML Report](#html-report)
