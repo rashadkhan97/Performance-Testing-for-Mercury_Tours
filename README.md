@@ -14,8 +14,7 @@
 - [Summary](#summary)  
 - [HTML Report](#html-report)
 - [Stress Testing](#stress-testing)    
-- [Spike Testing](#spike-testing)      
-- [Endurance Testing](#endurance-testing)
+- [Spike Testing](#spike-testing)  
 - [Read Test Data from CSV file in Jmeter](#read-test-data-from-csv-file-in-jmeter)
 
 
@@ -257,15 +256,22 @@ Stress testing is a type of software testing that assesses how a system performs
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![a](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1)  | ![b](https://github.com/user-attachments/assets/ef1d7732-76ea-4cdb-a3ae-41f47f3282db)
+![a](https://github.com/user-attachments/assets/61e8b97e-e360-4e48-8ea8-2965b404781d)  | ![b](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1)
 
+Statistics            
+:-------------------------:
+![c](https://github.com/user-attachments/assets/ef1d7732-76ea-4cdb-a3ae-41f47f3282db)
 
 
 **Number of Threads 15 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![c](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1) | ![d](https://github.com/user-attachments/assets/b5927a4d-0cc5-430e-aab7-0caf90985c6b)
+![d](https://github.com/user-attachments/assets/b1687774-0ad0-467d-8438-bc07d8c2da4b)  | ![e](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1)
+
+Statistics            
+:-------------------------:
+![f](https://github.com/user-attachments/assets/b5927a4d-0cc5-430e-aab7-0caf90985c6b)
 
 
 # Spike Testing
@@ -278,16 +284,6 @@ Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![r](https://github.com/user-attachments/assets/d6e1f997-3fed-4786-b490-30df24ba14c4)  | ![s](https://github.com/user-attachments/assets/e0001a66-f1d1-4815-a161-554bd5ef9496)
 
-# Endurance Testing
-An application may be put through endurance testing to see if it can handle the processing load that will be placed on it over an extended period of time. Memory usage is tracked throughout endurance tests to identify potential issues.   
-
-**Start Threads count 6s ; Initial Delay 0s ; Start up Time 10s ; Hold load for 600s ; Shutdown Time 0s**     
-
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![e](https://user-images.githubusercontent.com/92669932/189861431-3843b069-8a12-4e38-b527-2a28700f7bf9.jpg) | ![f](https://user-images.githubusercontent.com/92669932/189861468-84b0bd3c-1531-4a30-a7b2-9d9f59964823.jpg)
-
-![t](https://user-images.githubusercontent.com/92669932/189866938-ce1e11e2-9720-4c4f-91a6-6c79e450632b.jpg)
 
 # Read Test Data from CSV file in Jmeter    
 
