@@ -282,7 +282,11 @@ Spike testing is a type of performance testing where the demand for an applicati
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![r](https://github.com/user-attachments/assets/d6e1f997-3fed-4786-b490-30df24ba14c4)  | ![s](https://github.com/user-attachments/assets/e0001a66-f1d1-4815-a161-554bd5ef9496)
+![r](https://github.com/user-attachments/assets/d6e1f997-3fed-4786-b490-30df24ba14c4)  | ![s](https://github.com/user-attachments/assets/7c56a2e5-014f-4111-9edf-e3c6d4661a0b)
+
+Statistics            
+:-------------------------:
+![t](https://github.com/user-attachments/assets/e0001a66-f1d1-4815-a161-554bd5ef9496)
 
 
 # Read Test Data from CSV file in Jmeter    
