@@ -265,8 +265,7 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![c](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1) | ![Uploading image.png…]()
-
+![c](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1) | ![d](https://github.com/user-attachments/assets/b5927a4d-0cc5-430e-aab7-0caf90985c6b)
 
 
 # Spike Testing
@@ -277,7 +276,7 @@ Spike testing is a type of performance testing where the demand for an applicati
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
+![r](https://github.com/user-attachments/assets/d6e1f997-3fed-4786-b490-30df24ba14c4)  | ![s](https://github.com/user-attachments/assets/e0001a66-f1d1-4815-a161-554bd5ef9496)
 
 # Endurance Testing
 An application may be put through endurance testing to see if it can handle the processing load that will be placed on it over an extended period of time. Memory usage is tracked throughout endurance tests to identify potential issues.   
