@@ -251,36 +251,29 @@ Total Transaction  Per Second | Errors
 
 # Stress Testing
 
-Stress Testing is a type of software testing that evaluates how the software responds under extreme conditions. It verifies how robust a system will be, and its response capabilities and error handling when it is subjected to conditions where its normal functioning can be compromised.
+Stress testing is a type of software testing that assesses how a system performs under extreme conditions. It is designed to evaluate the robustness, stability, and error-handling capabilities of the software when subjected to conditions that push it beyond its normal operational limits. The goal is to verify how well the system can handle high stress, identify any potential failure points, and ensure it responds appropriately under such circumstances.
 
-**Number of Threads 7 ; Ramp-Up Period 10s**
+**Number of Threads 12 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![a](https://user-images.githubusercontent.com/92669932/189820373-01f812aa-acaa-47fc-a7f2-91e813e23a4a.jpg) |  ![b](https://user-images.githubusercontent.com/92669932/189820402-fcef18b3-cd47-4b60-8ee1-87e1a7e59a01.jpg)
-
-  
+![a](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1)  | ![b](https://github.com/user-attachments/assets/ef1d7732-76ea-4cdb-a3ae-41f47f3282db)
 
 
-**Number of Threads 8 ; Ramp-Up Period 10s**
+
+**Number of Threads 15 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![c](https://user-images.githubusercontent.com/92669932/189820654-d0f9744c-d05e-462f-88f7-ba8f91125f29.jpg) | ![d](https://user-images.githubusercontent.com/92669932/189820670-b90a99e7-d44a-47f5-8d66-806e571c1fb4.jpg)    
+![c](https://github.com/user-attachments/assets/9382fede-9f89-4c59-9927-f069ca4ee8e1) | ![Uploading image.png…]()
 
 
-
-**Number of Threads 9 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![e](https://user-images.githubusercontent.com/92669932/189820708-da2be22b-1718-4f9a-a89a-e5235d6d1e82.jpg)  |   ![f](https://user-images.githubusercontent.com/92669932/189820724-4217425e-491d-4177-918b-347e89281b6b.jpg)
 
 # Spike Testing
 
-Spike testing is a type of performance testing where the demand for an application is suddenly and drastically increased or decreased. Spike testing's objective is to ascertain how a software program will behave under highly variable traffic conditions.
+Spike testing is a type of performance testing where the demand for an application is suddenly and significantly increased or decreased. The objective of spike testing is to determine how a software application behaves under highly fluctuating traffic conditions, ensuring it can handle abrupt changes in load without performance degradation or failure.
 
-**Number of Threads 15 ; Ramp-Up Period 10s**
+**Number of Threads 19 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
