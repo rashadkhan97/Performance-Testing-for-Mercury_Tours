@@ -14,8 +14,7 @@
 - [Summary](#summary)  
 - [HTML Report](#html-report)
 - [Stress Testing](#stress-testing)    
-- [Spike Testing](#spike-testing)  
-- [Read Test Data from CSV file in Jmeter](#read-test-data-from-csv-file-in-jmeter)
+- [Spike Testing](#spike-testing)
 
 
 
@@ -287,35 +286,6 @@ Requests Summary             |  Errors
 Statistics            
 :-------------------------:
 ![t](https://github.com/user-attachments/assets/e0001a66-f1d1-4815-a161-554bd5ef9496)
-
-
-# Read Test Data from CSV file in Jmeter    
-
-- Create a CSV file in the test suite folder and add test data to it.  <br/>
-
-![csv](https://user-images.githubusercontent.com/92669932/189913089-8bab3573-ad13-4d80-b9da-ff8168b953fe.jpg)
-
-- Add a Config Element CSV Data Set Config in Jmeter.   <br/>
-
-![2](https://user-images.githubusercontent.com/92669932/189913286-0ef1bf60-234f-4275-8def-47d815221dab.jpg)   
-
-- Configure ' CSV Data Set Config ' based on the need such as providing path of CSV file and variable names and other configs.   <br/>
-
-![1](https://user-images.githubusercontent.com/92669932/189913690-80380eda-a4df-4e92-901b-5f1424dadcc2.jpg)  
-
-- Run the test to see if data from the CSV file is read and populated in the results.  <br/>
-
-- Run the test to see if data from CSV file is read and populated in the results.    <br/>  
-
-
-**Number of Threads 13 ; Ramp-Up Period 5s**
-
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/92669932/189938100-48702b1a-99a6-4de4-af25-66f069b78e1c.jpg" width="49%" />   
-  <img src="https://user-images.githubusercontent.com/92669932/189938110-331e82ad-1e51-465a-a2e8-aec250760351.jpg" width="49%" />   
-  <img src="https://user-images.githubusercontent.com/92669932/189938113-dee95de0-4302-41ed-9924-5ddac5836cfe.jpg" width="49%" />    
-  <img src="https://user-images.githubusercontent.com/92669932/189938115-2de6ea5e-d90c-4fd1-bcc9-7e3997c52693.jpg" width="49%" />     
-</p>
 
 
 
