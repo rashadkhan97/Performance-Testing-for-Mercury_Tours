@@ -17,7 +17,6 @@
 - [Spike Testing](#spike-testing)
 
 
-
 # Introduction
 
 This document explains how to run a performance test with JMeter against -**Mercury Tours** a travel website where users can book flights, hotels, car rentals, etc.
